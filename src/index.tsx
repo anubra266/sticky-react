@@ -21,7 +21,7 @@ import {
 /**
  * Make the element sticky
  */
-function Sticky({ as = 'div', ...rest }: { as: any }) {
+function Sticky({ as = 'div', ...rest }: { as?: any }) {
   const { topSentinelRef, bottomSentinelRef } = useContext(
     StickySectionContext
   );
@@ -49,10 +49,10 @@ const noop = () => {};
  * A section, in which <Sticky /> element element is observed
  */
 type StickyBoundary = {
-  as: any;
-  onChange: (target?: ReactNode) => void;
-  onStuck: (target?: ReactNode) => void;
-  onUnstuck: (target?: ReactNode) => void;
+  as?: any;
+  onChange?: (target?: ReactNode) => void;
+  onStuck?: (target?: ReactNode) => void;
+  onUnstuck?: (target?: ReactNode) => void;
   children: ReactElement<any>;
 };
 function StickyBoundary({
@@ -131,7 +131,7 @@ function StickyViewport({
   ...rest
 }: {
   children: ReactChildren;
-  as: any;
+  as?: any;
 }) {
   return (
     <StickyProvider>

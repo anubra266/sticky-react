@@ -33,16 +33,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "sticky-react",
+  "name": "stickyreact",
   "author": "anubra266",
-  "module": "dist/sticky-react.esm.js",
+  "module": "dist/stickyreact.esm.js",
   "size-limit": [
     {
-      "path": "dist/sticky-react.cjs.production.min.js",
+      "path": "dist/stickyreact.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/sticky-react.esm.js",
+      "path": "dist/stickyreact.esm.js",
       "limit": "10 KB"
     }
   ],
