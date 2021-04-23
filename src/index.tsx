@@ -126,7 +126,7 @@ function StickyViewport({
 }: {
   children: any;
   as?: any;
-}) {
+} & any) {
   return (
     <StickyProvider>
       <StickyRoot as={as} {...rest}>
