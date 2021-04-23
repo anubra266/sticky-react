@@ -1,9 +1,4 @@
-import React, {
-  ReactElement,
-  ReactNode,
-  useContext,
-  useRef,
-} from 'react';
+import React, { ReactElement, ReactNode, useContext, useRef } from 'react';
 
 import {
   useStickyActions,
