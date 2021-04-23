@@ -1,5 +1,4 @@
 import React, {
-  ReactChildren,
   ReactElement,
   ReactNode,
   useContext,
@@ -21,7 +20,7 @@ import {
 /**
  * Make the element sticky
  */
-function Sticky({ as = 'div', ...rest }: { as?: any }) {
+function Sticky({ as = 'div', ...rest }: { as?: any } & any) {
   const { topSentinelRef, bottomSentinelRef } = useContext(
     StickySectionContext
   );
@@ -130,7 +129,7 @@ function StickyViewport({
   as = 'div',
   ...rest
 }: {
-  children: ReactChildren;
+  children: any;
   as?: any;
 }) {
   return (
