@@ -14,7 +14,7 @@ yarn add @anubra266/stickyreact
 ## Usage
 
 ```javascript
-import Component from 'my-project';
+import { StickyViewport, StickyBoundary, Sticky } from '@anubra266/stickyreact';
 
 function App() {
   const handleStuck = target => {
