@@ -130,7 +130,7 @@ Callback when a child is no longer Sticky.
 
 #### onChange
 
-Callback when a child becomes Sticky or Losesthe Sticky State.
+Callback when a child becomes Sticky or Loses the Sticky State.
 
 **NB:** It provides a destructurable parameter
 
@@ -144,7 +144,7 @@ Callback when a child becomes Sticky or Losesthe Sticky State.
 };
 ```
 
-**NB:** The paramters are to be destructured
+**NB:** The parameters are to be destructured
 
 | Parameter | Type                  | Description                 |
 | :-------- | :-------------------- | :-------------------------- |
